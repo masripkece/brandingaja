@@ -1,0 +1,98 @@
+/* ================= ROOT COLOR ================= */
+:root {
+    --green-main: #08B3AD;
+    --yellow-main: #F6B21A;
+}
+
+/* ================= BODY ================= */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+}
+
+/* ================= GLOBAL SECTION ================= */
+.section-wrapper {
+    background: linear-gradient(
+        180deg,
+        #08B3AD 0%,
+        #08B3AD 55%,
+        #F6B21A 100%
+    );
+    border-radius: 80px;
+    padding: 60px 24px;
+    margin-bottom: 80px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .section-wrapper {
+        border-radius: 48px;
+        padding: 40px 20px;
+        margin-bottom: 60px;
+    }
+}
+
+/* ================= CARD ================= */
+.card-gradient {
+    background: linear-gradient(
+        180deg,
+        #08B3AD 0%,
+        #08B3AD 50%,
+        #F6B21A 100%
+    );
+    border-radius: 32px;
+}
+
+/* ================= BUTTON ================= */
+.btn-yellow {
+    background-color: var(--yellow-main);
+    color: #000;
+    font-weight: 600;
+    border-radius: 999px;
+}
+
+.btn-yellow:hover {
+    background-color: #f2a900;
+}
+.slide {
+    width: 33.333%;
+    padding: 0 1rem;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+  }
+  
+  .slide img {
+    width: 100%;
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+  }
+  
+  .slide.active {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  
+  .slide:not(.active) {
+    opacity: 0.7;
+  }
+  
+  /* DOT */
+  .pro-dot {
+    width: 8px;
+    height: 8px;
+    background: #cbd5e1;
+    border-radius: 9999px;
+    transition: all 0.4s ease;
+  }
+  
+  .pro-dot.active {
+    width: 28px;
+    background: #08b3ad;
+  }
+  [x-cloak] {
+    display: none !important;
+  }
+  
+  
+  
+  
