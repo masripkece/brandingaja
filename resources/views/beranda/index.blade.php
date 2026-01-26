@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BrandinginAja</title>
-
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -169,7 +168,7 @@
         <!-- TEXT (KIRI) -->
         <div class="text-center lg:text-left">
             <h1 class="text-white text-3xl lg:text-5xl font-bold mb-6">
-                Trending <span class="text-yellow-400 italic">Aja</span>
+                Branding <span class="text-yellow-400 italic">Aja</span>
             </h1>
 
             <p class="text-white leading-relaxed max-w-xl mx-auto lg:mx-0">
@@ -436,7 +435,7 @@
 
   <!-- FOOTER BOTTOM -->
   <div class="mt-16 border-t border-white/30 pt-6 text-center text-sm text-white/80">
-    © {{ date('Y') }} BrandinginAja. All rights reserved.
+    © {{ date('Y') }} BrandingAja. All rights reserved.
   </div>
 </footer>
 

@@ -240,59 +240,93 @@
 <footer class="bg-[#08b3ad] text-white px-6 pt-20 pb-10">
   <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
 
+    <!-- BRAND -->
     <div>
-      <h3 class="text-2xl font-bold">BrandinginAja</h3>
-      <p class="mt-5 text-sm text-white/90">
+      <h3 class="text-2xl font-bold tracking-wide">BrandinginAja</h3>
+      <p class="mt-5 text-sm leading-relaxed text-white/90">
         Jalan Gajah Mungkur No. XX<br>
         Semarang – Jawa Tengah<br>
         Indonesia
       </p>
     </div>
 
+    <!-- INFORMASI -->
     <div>
       <h4 class="font-semibold mb-5 text-lg">Informasi</h4>
       <ul class="space-y-3 text-sm text-white/90">
-        <li><a href="/" class="hover:underline">Beranda</a></li>
-        <li><a href="/tentang-kami" class="hover:underline">Tentang Kami</a></li>
+        <li><a href="#" class="hover:underline">Beranda</a></li>
+        <li><a href="#" class="hover:underline">Tentang Kami</a></li>
         <li><a href="#" class="hover:underline">Tanya Jawab</a></li>
         <li><a href="#" class="hover:underline">Kontak Kami</a></li>
       </ul>
     </div>
 
+    <!-- SOSIAL & PEMBAYARAN -->
     <div>
-      <h4 class="font-semibold mb-5 text-lg">Sosial Media</h4>
-      <div class="flex gap-4 mb-8">
-        <img src="{{ asset('img/ig.png') }}" class="w-6">
-        <img src="{{ asset('img/tiktok.png') }}" class="w-6">
-        <img src="{{ asset('img/fb.png') }}" class="w-6">
-        <img src="{{ asset('img/x.png') }}" class="w-6">
-      </div>
+  <h4 class="font-semibold mb-5 text-lg">Sosial Media</h4>
+
+  <div class="flex items-center gap-4 mb-8">
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/_imamsss?igsh=MTFoeHR0bG50bmZhYw==" target="_blank"
+       class="hover:scale-110 transition duration-300">
+      <img src="{{ asset('img/ig.png') }}" class="w-6 h-6" alt="Instagram">
+    </a>
+
+    <!-- TikTok -->
+    <a href="https://www.tiktok.com/masyrip" target="_blank"
+       class="hover:scale-110 transition duration-300">
+      <img src="{{ asset('img/tiktok.png') }}" class="w-6 h-6" alt="TikTok">
+    </a>
+
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/username_kamu" target="_blank"
+       class="hover:scale-110 transition duration-300">
+      <img src="{{ asset('img/fb.png') }}" class="w-6 h-6" alt="Facebook">
+    </a>
+
+    <!-- X (Twitter) -->
+    <a href="https://x.com/username_kamu" target="_blank"
+       class="hover:scale-110 transition duration-300">
+      <img src="{{ asset('img/x.png') }}" class="w-6 h-6" alt="X">
+    </a>
+  </div>
+
+
 
       <h4 class="font-semibold mb-4 text-lg">Pembayaran</h4>
-      <div class="flex gap-4">
-        <img src="{{ asset('img/bca.png') }}" class="h-6">
-        <img src="{{ asset('img/bni.png') }}" class="h-6">
-        <img src="{{ asset('img/qris.png') }}" class="h-6">
-        <img src="{{ asset('img/bank-jateng.png') }}" class="h-6">
+      <div class="flex items-center gap-4">
+        <img src="{{ asset('img/bca.png') }}" class="h-6" alt="BCA">
+        <img src="{{ asset('img/bni.png') }}" class="h-6" alt="BNI">
+        <img src="{{ asset('img/qris.png') }}" class="h-6" alt="QRIS">
+        <img src="{{ asset('img/bank-jateng.png') }}" class="h-6" alt="Bank Jateng">
       </div>
     </div>
+
+    <!-- MAP -->
     <div>
       <h4 class="font-semibold mb-5 text-lg">Lokasi Kami</h4>
       <div class="rounded-2xl overflow-hidden shadow-lg border border-white/20">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9913963954887!2d110.4128092!3d-7.010294000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b00031ccebf%3A0xa82ee29fbaefc922!2sBacaaja!5e0!3m2!1sid!2sid!4v1768965163371!5m2!1sid!2sid" class="w-full h-48"
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9913963954887!2d110.4128092!3d-7.010294000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b00031ccebf%3A0xa82ee29fbaefc922!2sBacaaja!5e0!3m2!1sid!2sid!4v1768965163371!5m2!1sid!2sid"
+          class="w-full h-48"
           style="border:0;"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+      </div>
     </div>
 
   </div>
 
+  <!-- FOOTER BOTTOM -->
   <div class="mt-16 border-t border-white/30 pt-6 text-center text-sm text-white/80">
     © {{ date('Y') }} BrandinginAja. All rights reserved.
   </div>
 </footer>
+
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script src="{{ asset('js/loop-slider.js') }}"></script>
 
 </body>
 </html>
