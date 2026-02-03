@@ -1,0 +1,25 @@
+#sidebar {
+    @apply transition-all duration-500 ease-in-out;
+}
+
+#sidebar.collapsed {
+    width: 80px;
+}
+
+#sidebar.collapsed .sidebar-text {
+    opacity: 0;
+    transform: translateX(-12px);
+    pointer-events: none;
+}
+
+.sidebar-text {
+    @apply transition-all duration-300;
+}
+.menu-item {
+    @apply flex items-center gap-3 p-3 rounded cursor-pointer
+           hover:bg-white/20 transition-all duration-300;
+}
+
+.menu-item i {
+    min-width: 20px;
+}
