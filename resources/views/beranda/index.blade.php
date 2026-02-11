@@ -172,32 +172,6 @@
 </script>
 
 
-
-<!-- ================= 2 CARD ================= -->
-<section class="py-24">
-  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10">
-
-    <div class="border rounded-2xl p-10 hover:shadow-xl transition">
-      <h3 class="text-2xl font-semibold mb-4">Untuk Mitra</h3>
-      <p class="text-gray-600 mb-6">
-        Solusi branding dan sistem profesional
-        untuk pengembangan mitra.
-      </p>
-      <a href="/mitra" class="text-yellow-500 font-semibold">Pelajari →</a>
-    </div>
-
-    <div class="border rounded-2xl p-10 hover:shadow-xl transition">
-      <h3 class="text-2xl font-semibold mb-4">Untuk Pelanggan</h3>
-      <p class="text-gray-600 mb-6">
-        Akses layanan branding berkualitas
-        dari mitra terpercaya.
-      </p>
-      <a href="/pelanggan" class="text-yellow-500 font-semibold">Pelajari →</a>
-    </div>
-
-  </div>
-</section>
-
 <!-- ================= BENEFIT LIST ================= -->
 <section class="bg-slate-50 py-28">
   <div class="max-w-7xl mx-auto px-6">
@@ -208,9 +182,20 @@
         Value Kami
       </span>
 
-      <h2 class="mt-4 text-4xl md:text-5xl font-bold text-slate-900 leading-tight">
-        Kenapa <span class="italic text-slate-500">BrandingAja</span>
-      </h2>
+      <h2 class="mt-4 flex justify-center items-center">
+  <img
+    src="{{ asset('img/kenapa.png') }}"
+    alt="Kenapa BrandingAja"
+    class="h-12 md:h-14 object-contain translate-y-[2px]"
+  />
+</h2>
+
+
+
+
+
+
+
 
       <div class="w-24 h-1 mx-auto bg-[#02b0af] rounded-full my-6"></div>
 
@@ -446,6 +431,33 @@
       </div>
 
     </div>
+  </div>
+</section>
+
+
+
+<!-- ================= 2 CARD ================= -->
+<section class="py-24">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-10">
+
+    <div class="border rounded-2xl p-10 hover:shadow-xl transition">
+      <h3 class="text-2xl font-semibold mb-4">Untuk Mitra</h3>
+      <p class="text-gray-600 mb-6">
+        Solusi branding dan sistem profesional
+        untuk pengembangan mitra.
+      </p>
+      <a href="/mitra" class="text-yellow-500 font-semibold">Pelajari →</a>
+    </div>
+
+    <div class="border rounded-2xl p-10 hover:shadow-xl transition">
+      <h3 class="text-2xl font-semibold mb-4">Untuk Pelanggan</h3>
+      <p class="text-gray-600 mb-6">
+        Akses layanan branding berkualitas
+        dari mitra terpercaya.
+      </p>
+      <a href="/pelanggan" class="text-yellow-500 font-semibold">Pelajari →</a>
+    </div>
+
   </div>
 </section>
 

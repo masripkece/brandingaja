@@ -10,9 +10,14 @@
 
     <!-- TEXT -->
     <div>
-      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-        Pelanggan <span class="italic text-gray-500">BrandingAja</span>
-      </h1>
+    <h1 class="mt-4 flex items-center justify-start">
+  <img
+    src="{{ asset('img/pelanggan.png') }}"
+    alt="Mitra BrandingAja"
+    class="h-16 md:h-20 object-contain translate-y-[2px]"
+  />
+</h1>
+
 
       <p class="text-gray-600 text-lg leading-relaxed mb-6">
         Pelanggan BrandingAja adalah individu maupun bisnis yang membutuhkan
@@ -28,17 +33,20 @@
 
       <!-- STATS -->
       <div class="grid grid-cols-3 gap-6">
-        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300">
           <div class="text-3xl font-bold text-gray-900">1200+</div>
           <p class="text-sm text-gray-500 mt-1">Clients</p>
         </div>
 
-        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300">
           <div class="text-3xl font-bold text-gray-900">98%</div>
           <p class="text-sm text-gray-500 mt-1">Satisfaction</p>
         </div>
 
-        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
+        <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300">
           <div class="text-3xl font-bold text-gray-900">Enterprise</div>
           <p class="text-sm text-gray-500 mt-1">Trusted</p>
         </div>
@@ -47,9 +55,10 @@
 
     <!-- IMAGE -->
     <div class="relative">
-      <div class="absolute inset-0 bg-gradient-to-tr from-gray-100 to-white rounded-3xl"></div>
+      <div class="absolute inset-0 bg-gradient-to-tr from-gray-100 to-white rounded-3xl shadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300"></div>
       <img
-        src="{{ asset('img/pelanggan.png') }}"
+        src="{{ asset('img/hero_pelanggan.png') }}"
         alt="Pelanggan BrandingAja"
         class="relative rounded-3xl shadow-lg"
       >
@@ -86,7 +95,8 @@
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 
       <!-- CARD -->
-      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm">
+      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300">
         <h4 class="text-lg font-semibold text-gray-900 mb-4">
           Mitra Terverifikasi
         </h4>
@@ -96,7 +106,8 @@
         </p>
       </div>
 
-      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm">
+      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300">
         <h4 class="text-lg font-semibold text-gray-900 mb-4">
           Proses Efisien
         </h4>
@@ -106,7 +117,8 @@
         </p>
       </div>
 
-      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm">
+      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300">
         <h4 class="text-lg font-semibold text-gray-900 mb-4">
           Transparansi Biaya
         </h4>
@@ -116,7 +128,8 @@
         </p>
       </div>
 
-      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm">
+      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300">
         <h4 class="text-lg font-semibold text-gray-900 mb-4">
           Monitoring Proyek
         </h4>
@@ -126,7 +139,8 @@
         </p>
       </div>
 
-      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm">
+      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300">
         <h4 class="text-lg font-semibold text-gray-900 mb-4">
           Keamanan Data
         </h4>
@@ -136,8 +150,8 @@
         </p>
       </div>
 
-      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-sm">
-        <h4 class="text-lg font-semibold text-gray-900 mb-4">
+      <div class="bg-white p-10 rounded-3xl border border-gray-200 shadow-smshadow-sm hover:shadow-xl
+               hover:-translate-y-1 transition-all duration-300
           Dukungan Profesional
         </h4>
         <p class="text-gray-600 text-sm leading-relaxed">

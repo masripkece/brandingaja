@@ -14,10 +14,15 @@
         Partnership
       </span>
 
-      <h1 class="mt-4 text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-        Mitra
-        <span class="italic text-gray-500 font-medium">BrandingAja</span>
-      </h1>
+      <h1 class="mt-4 flex items-center justify-start">
+  <img
+    src="{{ asset('img/mitra.png') }}"
+    alt="Mitra BrandingAja"
+    class="h-12 md:h-14 object-contain translate-y-[2px]"
+  />
+</h1>
+
+
 
       <div class="w-16 h-1 bg-gray-300 rounded-full my-6"></div>
 
